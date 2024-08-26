@@ -12,8 +12,8 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 2000);
-    return () => clearInterval(interval); // Cleanup on unmount
+    const interval = setInterval(nextSlide, 7000);
+    return () => clearInterval(interval);
   }, [currentIndex]);
 
   const prevSlide = (): void => {
