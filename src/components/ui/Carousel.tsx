@@ -27,35 +27,36 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
   };
 
   return (
-    <div className="relative w-[400px] h-[650px] overflow-hidden">
-      <div
-        className="flex transition-transform duration-500"
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-      >
-        {images.map((image, index) => (
-          <div key={index} className="min-w-full h-full flex justify-center items-center">
-            <img
-              src={image.src}
-              alt={`Slide ${index}`}
-              className={`object-fill`}
-            />
-          </div>
-        ))}
+<div className="relative w-full overflow-hidden">
+  <div
+    className="flex transition-transform duration-500"
+    style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+  >
+    {images.map((image, index) => (
+      <div key={index} className="flex-shrink-0 w-full h-[60vh]">
+        <img
+          src={image.src}
+          alt={`Slide ${index}`}
+          className="object-contain w-full h-full"
+        />
       </div>
+    ))}
+  </div>
 
-      <button
-        onClick={prevSlide}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2"
-      >
-        ❮
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2"
-      >
-        ❯
-      </button>
-    </div>
+  <button
+    onClick={prevSlide}
+    className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full"
+  >
+    ❮
+  </button>
+  <button
+    onClick={nextSlide}
+    className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full"
+  >
+    ❯
+  </button>
+</div>
+
   );
 };
 
