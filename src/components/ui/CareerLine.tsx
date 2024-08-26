@@ -1,15 +1,24 @@
 import { Timeline } from './timeline';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export function CareerLine() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   const data = [
     {
       title: 'Kriyadocs',
       content: (
-        <div>
+        <div data-aos="flip-down"
+        data-aos-offset="2"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
           <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-sm font-normal mb-2">
             Software Development Engineer - (Oct 2023 - Aug 2024) - (Chennai, India)
           </p>
-          <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500 cursor-auto">
+          <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500 cursor-auto">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 Improved submission page UI and input validations, ensuring a smoother user experience.
             </div>
@@ -48,7 +57,7 @@ export function CareerLine() {
               <span className='border border-slate-700 p-1 rounded-xl'>ReactJs</span><span className='border border-slate-700 p-1 rounded-xl '>Javascript</span> <span className='border border-slate-700 p-1 rounded-xl '>JQuery</span> <span className='border border-slate-700 p-1 rounded-xl '>NodeJs</span> <span className='border border-slate-700 p-1 rounded-xl '>Docker</span> <span className='border border-slate-700 p-1 rounded-xl '>ElasticSearch</span> <span className='border border-slate-700 p-1 rounded-xl '>Redis</span> <span className='border border-slate-700 p-1 rounded-xl '>Socket.io</span> <span className='border border-slate-700 p-1 rounded-xl '>Latex</span> <span className='border border-slate-700 p-1 rounded-xl '>Express</span> <span className='border border-slate-700 p-1 rounded-xl '>Gitlab CI/CD</span>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4 ">
+          <div  className="grid grid-cols-2 gap-4 ">
             <img
               src="https://media.licdn.com/dms/image/v2/D562DAQF78JLM8NWF6w/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1719360576014?e=1725102000&v=beta&t=yKIb5CKoCEByYsTImR40uP16ZlIfvhawlNXPzpZZ35A"
               alt="hackathon runner up image"
@@ -76,11 +85,14 @@ export function CareerLine() {
     {
       title: 'Tekion',
       content: (
-        <div>
+        <div data-aos="flip-down"
+        data-aos-offset="2"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-sm font-normal mb-2">
             Associate Software Engineer - (Aug 2022 - Oct 2023) - (Chennai, India)
           </p>
-          <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
+          <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 key developer in Tekion Automation platform’s (TAP) indigenously systemized one-stop support solution similar to Jira, Twilio and Asana to reduce third-party dependencies.
             </div>
@@ -109,7 +121,7 @@ export function CareerLine() {
               <span className='border border-slate-700 p-1 rounded-xl'>ReactJs</span><span className='border border-slate-700 p-1 rounded-xl '>Javascript</span> <span className='border border-slate-700 p-1 rounded-xl '>Jest</span> <span className='border border-slate-700 p-1 rounded-xl '>NodeJs</span> <span className='border border-slate-700 p-1 rounded-xl '>Bash</span> <span className='border border-slate-700 p-1 rounded-xl '>Redux</span> <span className='border border-slate-700 p-1 rounded-xl '>RTL</span> <span className='border border-slate-700 p-1 rounded-xl '>Pusher</span> <span className='border border-slate-700 p-1 rounded-xl '>SonarQube</span> <span className='border border-slate-700 p-1 rounded-xl '>MjML</span> <span className='border border-slate-700 p-1 rounded-xl '>AntDesign</span>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div  className="grid grid-cols-2 gap-4">
             <img
               src="https://media.licdn.com/dms/image/v2/D562DAQG4ESmTebWTGA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1691741210787?e=1725102000&v=beta&t=gO40kZ3KO6-9R-vrmuN43R6qTAcANuG2-I-XtUwNTwY"
               alt="Mentor Appreciation"
@@ -137,11 +149,14 @@ export function CareerLine() {
     {
       title: 'EmbedUR systems',
       content: (
-        <div>
+        <div data-aos="flip-down"
+        data-aos-offset="2"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-sm font-normal mb-2">
             Software Engineer (PI) -  (Jan 2022 - July 2022) - (Chennai, India)
           </p>
-          <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
+          <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 Revamped bootloader QSPI (execute in place-POC) and custom firmware CLI menu with necessary board-based API mapping, enhancing diagnostic and troubleshooting capabilities by two-fold rate.
             </div>
@@ -149,7 +164,7 @@ export function CareerLine() {
               🚀 Restructured interval-based board behavior with peripherals like jumper cable, Segger RTT, LED and power junction usage, enabling on-board issue debugging and reducing context switch by half-time.
               Performed codebase migration from infineon WICED SDK to Renesas E2 SDK.
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm"> 
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 Enhanced existing Cisco sec-ops product – firepower, which involves the snort IDs engine to act like a cloud firewall - improving system security posture monitoring.
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
@@ -157,7 +172,7 @@ export function CareerLine() {
               Assisted in developing auth daemon in go as a docker container and deployed in AWS EKS(inter-cisco-bay-testbed) through kubectl.
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm flex-wrap mt-4">
-            <span className='border border-slate-700 p-1 rounded-xl '>C</span> <span className='border border-slate-700 p-1 rounded-xl '>C++</span> <span className='border border-slate-700 p-1 rounded-xl '>Docker</span> <span className='border border-slate-700 p-1 rounded-xl '>Regex Engine</span> <span className='border border-slate-700 p-1 rounded-xl '>EC2</span> <span className='border border-slate-700 p-1 rounded-xl '>AWS EKS</span> <span className='border border-slate-700 p-1 rounded-xl '>MQTT</span> <span className='border border-slate-700 p-1 rounded-xl '>Infineon SDK</span> <span className='border border-slate-700 p-1 rounded-xl '>Snort Engine</span>
+              <span className='border border-slate-700 p-1 rounded-xl '>C</span> <span className='border border-slate-700 p-1 rounded-xl '>C++</span> <span className='border border-slate-700 p-1 rounded-xl '>Docker</span> <span className='border border-slate-700 p-1 rounded-xl '>Regex Engine</span> <span className='border border-slate-700 p-1 rounded-xl '>EC2</span> <span className='border border-slate-700 p-1 rounded-xl '>AWS EKS</span> <span className='border border-slate-700 p-1 rounded-xl '>MQTT</span> <span className='border border-slate-700 p-1 rounded-xl '>Infineon SDK</span> <span className='border border-slate-700 p-1 rounded-xl '>Snort Engine</span>
             </div>
           </div>
         </div>
@@ -166,11 +181,14 @@ export function CareerLine() {
     {
       title: 'Mepco Schlenk',
       content: (
-        <div>
+        <div data-aos="flip-down"
+        data-aos-offset="2"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-sm font-normal mb-2">
             B.E CSE Student (8.32)CGPA -  (Jun 2018 - Jun 2022) - (Chennai, India)
           </p>
-          <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
+          <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 Topic: Link failure handling and controller memory overhead elimination in SDN through SPRM technique.
             </div>

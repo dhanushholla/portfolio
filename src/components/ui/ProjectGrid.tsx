@@ -37,7 +37,10 @@ const ProjectGrid = () => {
         <span className='text-xl'>Projects 🪄🎨:</span>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
-          <div
+          <div data-aos="flip-down"
+          data-aos-offset="2"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
             key={index}
             className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
