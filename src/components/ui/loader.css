@@ -1,0 +1,25 @@
+/* Basic SVG Styling */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  /* Animate each path */
+  path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000; 
+    animation: draw 2s linear infinite;
+  }
+  
+  /* Keyframes for drawing */
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
