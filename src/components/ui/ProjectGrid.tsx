@@ -1,5 +1,10 @@
 const projects = [
   {
+    title: 'CraftQR',
+    description: 'React app that enables you to create your own QRcode',
+    link: 'https://craftqr-kappa.vercel.app/',
+  },
+  {
     title: 'ScopeSmith',
     description: 'Vs code extension related to scope limiting and scope search ',
     link: 'https://github.com/dhanushholla/scopeSmith',
@@ -13,6 +18,16 @@ const projects = [
     title: 'SaveNotes',
     description: 'ToDo list with CRUD, task prioritization and localstorage.',
     link: 'https://save-notes-app.vercel.app/',
+  },
+  {
+    title: 'VoxWarner',
+    description: 'Vs code extension that plays audio when you try to save file with errors ',
+    link: 'https://github.com/dhanushholla/voxWarner',
+  },  
+  {
+    title: 'Choke the CheckBox ',
+    description: 'socket io based checkbox selection practice app ',
+    link: 'https://github.com/dhanushholla/socketPractice'
   },
   {
     title: 'PassForge',
