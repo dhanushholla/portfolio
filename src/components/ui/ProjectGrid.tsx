@@ -1,5 +1,10 @@
 const projects = [
   {
+    title: 'SignMotion',
+    description: 'React app that enables you to create Custom handwriting style animated svg Loader',
+    link: 'https://signmotion.vercel.app/',
+  },
+  {
     title: 'CraftQR',
     description: 'React app that enables you to create your own QRcode',
     link: 'https://craftqr-kappa.vercel.app/',
