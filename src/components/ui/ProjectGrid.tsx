@@ -49,6 +49,11 @@ const projects = [
     description: 'Basic React class component based Insta feed',
     link: 'https://insta-ui-clone-gj7s.onrender.com/',
   },
+  {
+    title: 'Netflix UI clone',
+    description: 'React Hooks practice - Basic Netflix clone App CRUD,search, play trailer',
+    link: 'https://netflix-ui-clone.onrender.com/',
+  },
 ];
 
 const ProjectGrid = () => {
