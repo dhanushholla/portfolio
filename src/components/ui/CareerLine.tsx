@@ -2,6 +2,7 @@ import { Timeline } from './timeline';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { t1,t2,t3,t4,k1,k2,k3,k4 } from '../../assets/images';
 export function CareerLine() {
   useEffect(() => {
     AOS.init();
@@ -59,22 +60,22 @@ export function CareerLine() {
           </div>
           <div  className="grid grid-cols-2 gap-4 ">
             <img
-              src="https://media.licdn.com/dms/image/v2/D562DAQF78JLM8NWF6w/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1719360576014?e=1725102000&v=beta&t=yKIb5CKoCEByYsTImR40uP16ZlIfvhawlNXPzpZZ35A"
+              src={k1}
               alt="hackathon runner up image"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://media.licdn.com/dms/image/v2/D562DAQEFUEeau9UXqA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1719357803330?e=1725102000&v=beta&t=ghrHZ1h1ik45tPdBqhoduVRsvLwXB7SVJfWQOrXA4Qw"
+              src={k2}
               alt="Taking seminar"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://media.licdn.com/dms/image/v2/D562DAQEPIwlCaxY5Rg/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1719368789311?e=1725102000&v=beta&t=3NeYYZZCsSqzF1YBY9NRr_WdyhT4_zlYtIBirbgYmL8"
+              src={k3}
               alt="Torch bearer Feb'24"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://media.licdn.com/dms/image/v2/D5622AQEJVDP5aPk1kQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1716722858450?e=1727308800&v=beta&t=LMTi_b_TLxS9dRmVRzcClXU8MAbADaRikODaem44u2Q"
+              src={k4}
               alt="Torch bearer Feb'24"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
@@ -123,22 +124,22 @@ export function CareerLine() {
           </div>
           <div  className="grid grid-cols-2 gap-4">
             <img
-              src="https://media.licdn.com/dms/image/v2/D562DAQG4ESmTebWTGA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1691741210787?e=1725102000&v=beta&t=gO40kZ3KO6-9R-vrmuN43R6qTAcANuG2-I-XtUwNTwY"
+              src={t1}
               alt="Mentor Appreciation"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://media.licdn.com/dms/image/v2/D4E2DAQFxMwJPiKDt1Q/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1691490203249?e=1725102000&v=beta&t=q6AlbkM_5kXD6cZ94zucBQZHPKvB69KYKNela7nY724"
+              src={t2}
               alt="swag challenge winner"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://media.licdn.com/dms/image/v2/D4E22AQHCegxccQVfpg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1691779243333?e=1727308800&v=beta&t=fvUCyJaxE9S802T2eGvNg633pmh7TON7yOhLLWEB60w"
+              src={t3}
               alt="TAP FE team"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://media.licdn.com/dms/image/v2/D4E22AQGGaR4KRXD1Yg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1691779247124?e=1727308800&v=beta&t=yifzO7v0ljq5rG2P5ksB7W4M8WzXkf41OgSKpsx7x78"
+              src={t4}
               alt="Brain storming"
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
