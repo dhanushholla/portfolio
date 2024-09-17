@@ -5,7 +5,7 @@ import ProfileHead from './components/ui/ProfileHead'
 import ProjectGrid from './components/ui/ProjectGrid'
 import NavBar from './components/ui/NavBar'
 import Carousel from './components/ui/Carousel'
-import { image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27, image28, image29 } from './assets/images'
+import { a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25, image26, image27, image28, image29 } from './assets/images'
 import Myloader from './components/ui/Myloader'
 import { useState,useEffect } from 'react'
 
@@ -18,6 +18,18 @@ function App() {
     }, 2000);
   }, []);
   const imageList = [
+    {src: a7},
+    {src: a11},
+    {src: a8},
+    {src: a6},
+    {src: a9},
+    {src: a12},
+    {src: a1},
+    {src: a2},
+    {src: a3},
+    {src: a4},
+    {src: a5},
+    {src: a10},
     { src: image9, },
     { src: image8, },
     { src: image10, },
