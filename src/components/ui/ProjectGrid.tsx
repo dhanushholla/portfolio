@@ -1,5 +1,10 @@
 const projects = [
   {
+    title: 'CodeArena',
+    description: 'Custom built online IDE using react,judge0 and monaco',
+    link: 'https://code-arena-mu.vercel.app/',
+  },
+  {
     title: 'SignMotion',
     description: 'React app that enables you to create Custom handwriting style animated svg Loader',
     link: 'https://signmotion.vercel.app/',
@@ -11,17 +16,17 @@ const projects = [
   },
   {
     title: 'ScopeSmith',
-    description: 'Vs code extension related to scope limiting and scope search ',
+    description: 'Vs code extension related to scope limiting and scope search',
     link: 'https://github.com/dhanushholla/scopeSmith',
   },
   {
     title: 'CartPractice',
-    description: 'Basic cart app - CRUD features, search, sort, filter etc.',
+    description: 'Basic cart app - CRUD features, search, sort, filter etc',
     link: 'https://cart-practice-app.vercel.app/',
   },
   {
     title: 'SaveNotes',
-    description: 'ToDo list with CRUD, task prioritization and localstorage.',
+    description: 'ToDo list with CRUD, task prioritization and localstorage',
     link: 'https://save-notes-app.vercel.app/',
   },
   {
@@ -36,7 +41,7 @@ const projects = [
   },
   {
     title: 'PassForge',
-    description: 'Password and Slug generator.',
+    description: 'Password and Slug generator',
     link: 'https://pass-forge.vercel.app/',
   },
   {
