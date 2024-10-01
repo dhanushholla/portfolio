@@ -1,5 +1,10 @@
 const projects = [
   {
+    title: 'ResumeGenie',
+    description: 'Gemini AI-Powered Resume RAG ATS ChatApp',
+    link: 'https://resumegenie-jet.vercel.app/',
+  },
+  {
     title: 'CodeArena',
     description: 'Custom built online IDE using react,judge0 and monaco',
     link: 'https://code-arena-mu.vercel.app/',
