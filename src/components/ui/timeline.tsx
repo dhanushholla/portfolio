@@ -40,9 +40,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
         👨🏻‍💻Travel through my career trajectory 📈 :
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working as software developer for the past 2.7 years. Here&apos;s
-          timeline of my journey.
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-l">
+              Hop on in for a quick ride through my career events and highlights 👇
         </p>
       </div>
 
