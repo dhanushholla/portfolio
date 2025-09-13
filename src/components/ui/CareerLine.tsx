@@ -21,8 +21,46 @@ export function CareerLine() {
           </p>
           <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🚀 Excited to be part of the development team at Koolio, aimed to craft, develop and deliver exciting products that steps-up the content creation space.
-                 I will share further updates here soon..
+              🚀 Implemented real-time collaboration for audio content editing using a robust socket.io utility module.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Revamped frontend autonomy in audio editing by persisting audioData with IndexedDB, indices, and cache/memoization strategies.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Integrated OAuth & SSO providers (Google, Facebook, Apple) for seamless one-click signup, boosting user conversion rates.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Led and mentored a team of 2 frontend developers, driving sprint planning, architectural decisions, and scalable design practices.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Established a baseline Redux setup with optimized slice structures, while scoping redundant data using a custom `localContext` provider HOC.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Integrated a sync layer between backend and frontend via localIndexedDB, ensuring zero missed operations during network outages, powering collaborative editing rooms for podcasters.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Developed a sharedAudioContext leveraging WebAudio API and Wavesurfer.js, enabling playback, track management, downloads, pagination, and filtering across hundreds of audio entries.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Delivered key workflows: EditingFlow (upload & edit), AIFlow (AI generate & audio editing), PublishFlow (third-party publishing & RSS feeds), and RecordFlow (record & edit - single user).
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Built a history restore system (similar to Time Machine) to navigate audio versions with edit previews.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Engineered frontend audio buffer manipulation and instant multi-format downloads (WAV, FLAC, AIFF, MP3 via ffmpeg).
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Implemented an Express middleware proxy service between React frontend and API Gateway, handling auth, response shaping, and securing API keys/credentials.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Contributed to auth/session utilities, POCs, and backend migration from AWS to GCP.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Also experimenting on Dockerizing app, GCP CI build configs and alerts, logs, telemetry etc.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Actively contributing to 'Koolio 2.0', with new design, new architecture and loads of new feature.
             </div>
           </div>
         </div>
