@@ -21,7 +21,7 @@ export function CareerLine() {
           </p>
           <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🚀 Implementing exciting AI driven future for Koolio Kreators.
+              🚀 Implementing exciting AI driven future-proof features for Koolio Kreators.
             </div>
           </div>
         </div>
