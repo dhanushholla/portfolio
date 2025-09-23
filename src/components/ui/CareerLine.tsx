@@ -35,7 +35,7 @@ export function CareerLine() {
         data-aos-duration="1000"
         data-aos-easing="ease-in-out">
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-sm font-normal mb-2">
-            Senior Frontend Developer -  (May 2025 - Present) - (California, United States - Remote)
+            Senior Frontend Developer -  (May 2025 - Aug 2025) - (California, United States - Remote)
           </p>
           <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
