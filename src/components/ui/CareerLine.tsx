@@ -9,7 +9,7 @@ export function CareerLine() {
   }, []);
 
   const data = [
-    {
+        {
       title: 'Koolio',
       content: (
         <div data-aos="flip-down"
@@ -17,7 +17,25 @@ export function CareerLine() {
         data-aos-duration="1000"
         data-aos-easing="ease-in-out">
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-sm font-normal mb-2">
-            Software Engineer -  (Nov 2024 - Present) - (California, United States - Remote)
+            Lead Engineer -  (Aug 2025 - Present) - (California, United States - Remote)
+          </p>
+          <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Implementing exciting AI driven future for Koolio Kreators.
+            </div>
+          </div>
+        </div>
+      ),
+    },
+        {
+      title: 'Koolio',
+      content: (
+        <div data-aos="flip-down"
+        data-aos-offset="2"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-sm font-normal mb-2">
+            Senior Frontend Developer -  (May 2025 - Present) - (California, United States - Remote)
           </p>
           <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
@@ -36,13 +54,31 @@ export function CareerLine() {
               🚀 Established a baseline Redux setup with optimized slice structures, while scoping redundant data using a custom `localContext` provider HOC.
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🚀 Integrated a sync layer between backend and frontend via localIndexedDB, ensuring zero missed operations during network outages, powering collaborative editing rooms for podcasters.
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 Developed a sharedAudioContext leveraging WebAudio API and Wavesurfer.js, enabling playback, track management, downloads, pagination, and filtering across hundreds of audio entries.
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 Delivered key workflows: EditingFlow (upload & edit), AIFlow (AI generate & audio editing), PublishFlow (third-party publishing & RSS feeds), and RecordFlow (record & edit - single user).
+            </div>
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Actively contributing to 'Koolio 2.0', with new design, new architecture and loads of new feature.
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: 'Koolio',
+      content: (
+        <div data-aos="flip-down"
+        data-aos-offset="2"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-sm font-normal mb-2">
+            Software Engineer -  (Nov 2024 - May 2025) - (California, United States - Remote)
+          </p>
+          <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+              🚀 Integrated a sync layer between backend and frontend via localIndexedDB, ensuring zero missed operations during network outages, powering collaborative editing rooms for podcasters.
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 Built a history restore system (similar to Time Machine) to navigate audio versions with edit previews.
@@ -60,7 +96,7 @@ export function CareerLine() {
               🚀 Also experimenting on Dockerizing app, GCP CI build configs and alerts, logs, telemetry etc.
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🚀 Actively contributing to 'Koolio 2.0', with new design, new architecture and loads of new feature.
+              🚀 revamping audio to transcript operation logics like fade, record, insert, version preview and relay ops among collaborators etc.. with respect to koolio v1.0 architecture
             </div>
           </div>
         </div>
