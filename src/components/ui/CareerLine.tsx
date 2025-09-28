@@ -10,7 +10,7 @@ export function CareerLine() {
 
   const data = [
         {
-      title: 'Koolio',
+      title: 'Koolio.ai',
       content: (
         <div data-aos="flip-down"
         data-aos-offset="2"
@@ -28,7 +28,7 @@ export function CareerLine() {
       ),
     },
         {
-      title: 'Koolio',
+      title: 'Koolio.ai',
       content: (
         <div data-aos="flip-down"
         data-aos-offset="2"
@@ -67,7 +67,7 @@ export function CareerLine() {
       ),
     },
     {
-      title: 'Koolio',
+      title: 'Koolio.ai',
       content: (
         <div data-aos="flip-down"
         data-aos-offset="2"
