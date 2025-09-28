@@ -24,7 +24,7 @@ const ProfileHead = () => {
             /></div>
           </div>
           <div className="text-xl mt-2">
-            SWE @ Koolio | Ex- SDE @ Kriyadocs |  ASE @ Tekion | SDE(PI) @ EmbedUR Systems
+            Lead Engineer @ Koolio.ai | Ex- SDE @ Kriyadocs |  ASE @ Tekion | SDE(PI) @ EmbedUR Systems
           </div>
           <div className="text-lg mt-4">
             Experienced Frontend Developer adept in agile environments, delivering user-centric, responsive designs with React, Redux, and JavaScript. Advocating for test-driven development, CI/CD actions, and Dockerization. Keen interest in problem-solving and turning interesting ideas into POCs.
