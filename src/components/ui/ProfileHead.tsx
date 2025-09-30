@@ -1,7 +1,7 @@
 import { FaEnvelope, FaGithub, FaLinkedin, FaArrowDown } from 'react-icons/fa';
 import { IconCloudDemo } from './IconCloudDemo';
 import HyperText from './HyperText';
-const resumeLink = "https://drive.google.com/file/d/1DDq3Rj6VHZnSMzGV_q16SkQBMpAXA2r7/view?usp=sharing";
+const resumeLink = "https://drive.google.com/uc?export=download&id=1DDq3Rj6VHZnSMzGV_q16SkQBMpAXA2r7";
 
 const ProfileHead = () => {
 
