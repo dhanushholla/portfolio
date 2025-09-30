@@ -284,8 +284,7 @@ export function CareerLine() {
           </p>
           <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              🚀 Topic: Link failure handling and controller memory overhead elimination in SDN through SPRM technique.
-              <strong>M. Dhanush Holla</strong> et al.,&nbsp;
+              <strong> 🚀 M. Dhanush Holla</strong> et al.,&nbsp;
               &ldquo;Link Failure Handling in SDN via Source Path Routing,&rdquo;&nbsp;
               <em>Wireless Networks</em>, Vol. 30, Issue 2, Feb 2024.{' '}
               <a href="https://doi.org/10.1007/s11276-024-03660-1" target="_blank" rel="noopener noreferrer">
