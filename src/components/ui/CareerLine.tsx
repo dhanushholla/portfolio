@@ -284,12 +284,14 @@ export function CareerLine() {
           </p>
           <div  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4 border border-orange-500">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              <strong> 🚀 M. Dhanush Holla</strong> et al.,&nbsp;
-              &ldquo;Link Failure Handling in SDN via Source Path Routing,&rdquo;&nbsp;
-              <em>Wireless Networks</em>, Vol. 30, Issue 2, Feb 2024.{' '}
-              <a href="https://doi.org/10.1007/s11276-024-03660-1" target="_blank" rel="noopener noreferrer">
-                DOI
-              </a>
+              <p>
+                  <strong> 🚀 M. Dhanush Holla</strong> et al.,&nbsp;
+                &ldquo;Link Failure Handling in SDN via Source Path Routing,&rdquo;&nbsp;
+                <em>Wireless Networks</em>, Vol. 30, Issue 2, Feb 2024.{' '}
+                <a href="https://doi.org/10.1007/s11276-024-03660-1" target="_blank" rel="noopener noreferrer">
+                  DOI
+                </a>
+              </p>
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               🚀 Project was selected as the “best project” in CSE by Mepco Schlenk Engineering college out of 68 teams(128 students) projects by industry experts, for the academic year 2021-2022. The Team will receive cash award of Rs.10,000 in Feb,2023
